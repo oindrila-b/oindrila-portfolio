@@ -1,0 +1,26 @@
+*{
+    background-color: transparent;
+}
+
+.logo-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 5em;
+    margin-top: 3em;
+    color: white;
+
+    .down {
+        width: 100px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 11.55em;
+
+        img {
+            width: 60px !important;
+            height: 60px !important;
+            cursor: pointer;
+        }
+    }
+}
