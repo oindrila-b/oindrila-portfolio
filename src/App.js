@@ -5,7 +5,7 @@ import Home from './components/home/Home';
 function App() {
   return (
     <div className='App'>
-     <section><Home/></section>
+     <section id='home'><Home/></section>
      <section>hi </section>
      <section>hi </section>
      
