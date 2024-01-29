@@ -57,7 +57,7 @@ const particlesConfig = {
                 default: "bounce",
             },
             random: false,
-            speed: 6,
+            speed: 5.5,
             straight: false,
         },
         number: {
@@ -65,7 +65,7 @@ const particlesConfig = {
                 enable: true,
                 area: 800,
             },
-            value: 111,
+            value: 95,
         },
         opacity: {
             value: 0.9,
