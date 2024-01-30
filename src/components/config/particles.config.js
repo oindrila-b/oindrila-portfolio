@@ -3,7 +3,7 @@ import React from 'react'
 const particlesConfig = {
     background: {
         color: {
-            value: "#000013",
+            value: "#040422",
         },
     },
     fpsLimit: 120,

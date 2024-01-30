@@ -6,6 +6,8 @@ const About = () => {
   return (
     <div>
       <div className="container">
+        <h1>About</h1>
+        <div className="info-ima">
         <div className="image-container">
           <img src={me} alt='' />
         </div>
@@ -22,14 +24,14 @@ const About = () => {
             <br />   <br />
             Feel free to look at My Resume here ⬇️ 
 
-            <a href="https://shorturl.at/muGX4">
+            <a href="https://shorturl.at/muGX4" target='_blank'>
               <div className="resume">
                 <span>RESUME</span>
               </div>
             </a>
 
           </p>
-        </div>
+        </div></div>
       </div>
     </div>
   )

@@ -1,0 +1,133 @@
+.projects-container {
+    background-color: #040422c9;
+    width: 100%;
+    height: 1500px;
+    overflow-y: scroll;
+    // overflow-x: hidden;
+    position: relative;
+
+    h1 {
+        color: white;
+        font-size: 3.5em;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .timeline {
+
+        color: white;
+        width: 100%;
+        height: 2250px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 12em;
+
+        // &::before {
+        //     content: "";
+        //     position: absolute;
+        //     background-color: red;
+        //     width: 2em;
+        //     height: 2em;
+        //     border-radius: 50%;
+        //     left: 57em;
+        //     top: 16em;
+        //     z-index: 2;
+        //     }
+
+        .timeline-content {
+            z-index: 1;
+            max-width: 1600px !important;
+            max-height: 1600px !important;
+            justify-content: center;
+            align-items: center;
+
+            .content-pane {
+
+                .circle-left {
+                    width: 2.5em;
+                    height: 2.5em;
+                    background-color: rgb(255, 255, 255);
+                    position: relative;
+                    left: 44.75em;
+                    border-radius: 50%;
+                    top: 9em;
+                    z-index: 2;
+                }
+
+                // .circle-right {
+                //     width: 2.5em;
+                //     height: 2.5em;
+                //     background-color: wheat;
+                //     position: relative;
+                //     left: 44.75em;
+                //     border-radius: 50%;
+                //     top: 8em;
+                //     z-index: 2;
+                // }
+
+            .content {
+                padding: 10px 20px;
+                position: relative;
+                width: 41%;
+                display: flex;
+                flex-direction: row;
+                border-radius: 3em;
+                background-color: #111125ea;
+                opacity: 1;
+                img {
+                    width: 45em;
+                    height: 13em;
+                    margin-top: 1em;
+                    border-radius: 2em;
+
+                    &:hover {
+                        transform: scale(1.01);
+                    }
+                }
+
+
+                .text {
+                    padding: 0.3em;
+                    margin: 1em;
+                    background-color: rgb(126, 105, 67);
+                    position: relative;
+                    border-radius: 1em;
+
+                    &:hover {
+                        transform: scale(1.01);
+                    }
+                }
+
+            }
+
+            .left {
+                left: 0;
+            }
+
+            .right {
+                left: 50%;
+            }
+
+        }
+            }
+
+
+        &:after {
+            content: "";
+            position: absolute;
+            width: 0.5em;
+            height: 95em;
+            background-color: white;
+            border-radius: 10em;
+            top: 9em;
+            left: 51%;
+            margin-left: -3em;
+            z-index: 0;
+        }
+
+
+    }
+
+
+
+}

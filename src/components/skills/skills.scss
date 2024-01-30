@@ -1,0 +1,39 @@
+.skills-container {
+    background-color: #fdf0d1da;
+    width: 100%;
+    height: 1100px;
+    justify-content: center;
+    margin-top: -4.5em;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5em;
+
+    .radial-skills {
+        border: 1px solid rgba(0, 0, 0, 0);
+        width: 30em;
+        height: 15em;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 30;
+        background: repeating-radial-gradient(#141433 0.6px, #fdf0d100 4.5px, #fdf0d100 130px);
+
+
+        .skill1 {
+            display: flex;            
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            background-color: #292972;
+            color: white;
+            height: 3em;
+            font-size: 15px;
+            position: absolute;
+            width: 7em;
+            border-radius: 5em;
+            cursor: pointer;
+        }
+    }
+}

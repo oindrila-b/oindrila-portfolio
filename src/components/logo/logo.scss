@@ -28,6 +28,7 @@
         margin-left: 33em;
         margin-top: 15em;
         position: fixed;
+        z-index: 3;
     
        ul {
         display: flex;
@@ -69,6 +70,7 @@
                     width: 25px;
                     height: 25px;
                     justify-content: center;
+                    
                 }
 
 

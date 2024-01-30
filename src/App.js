@@ -10,7 +10,6 @@ function App() {
   return (
     <div className='App'>
       <section id='home'><Home />
-      
       </section>
       <section id='about'> <About /> </section>
       <section id='projects'> <Projects /> </section>
