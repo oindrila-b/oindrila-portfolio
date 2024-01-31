@@ -17,7 +17,7 @@
 
         color: white;
         width: 100%;
-        height: 2350px;
+        height: 2300px;
         justify-content: center;
         align-items: center;
         margin-left: 12em;
@@ -30,18 +30,22 @@
             justify-content: center;
             align-items: center;
 
-            .content-pane {
 
-                .circle-left {
-                    width: 2.3em;
-                    height: 2.3em;
-                    background-color: rgb(255, 255, 255);
-                    position: relative;
-                    left: 44.85em;
-                    border-radius: 50%;
-                    top: 9em;
-                    z-index: 2;
-                }
+            .circle-left {
+                width: 2.3em;
+                height: 2.3em;
+                background-color: rgb(255, 255, 255);
+                position: relative;
+                left: 44.85em;
+                border-radius: 50%;
+                top: 9em;
+                z-index: 2;
+            }
+
+            .content-pane {
+            a {
+                text-decoration: none;
+                color: white;
 
             .content {
                 padding: 10px 20px;
@@ -88,13 +92,14 @@
 
         }
             }
+            }
 
 
         &:after {
             content: "";
             position: absolute;
             width: 0.5em;
-            height: 95em;
+            height: 90em;
             background-color: white;
             border-radius: 10em;
             top: 9em;
