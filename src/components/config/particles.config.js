@@ -65,7 +65,7 @@ const particlesConfig = {
                 enable: true,
                 area: 800,
             },
-            value: 95,
+            value: 75,
         },
         opacity: {
             value: 0.9,

@@ -73,6 +73,11 @@ const Projects = () => {
           </div> 
           </div>
           </div>
+          <div className="more-projects">
+            <a href="https://github.com/oindrila-b" target="_blank">
+              <span>See more projects</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>

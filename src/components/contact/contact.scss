@@ -7,4 +7,74 @@
         font-size: 3.5em;
         color: white;
     }
+
+    h2 {
+        color: white;
+    }
+
+    .email-svg {
+        width: 25em;
+        top: 9.99em;
+        left: 15em;
+        height: 15em;
+        stroke: #FFDBC3;
+        position: relative;
+        z-index: 3;
+
+        a {
+            text-decoration: none;
+            span {
+                position: relative;
+                top: 0.3em;
+                font-size: 1.4em;
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+
+    .github-svg {
+        width: 25em;
+        top: -4.44em;
+        left: 50em;
+        height: 15em;
+        stroke: #FFDBC3;
+        position: relative;
+        z-index: 3;
+
+      a {
+        text-decoration: none;
+        span {
+            position: relative;
+            left: -1em;
+            top: 0.2em;
+            font-size: 1.4em;
+            text-decoration: none;
+            color: white;
+        }
+      }
+    }
+
+    .linkedin-svg {
+        width: 25em;
+        left: 78em;
+        top: -19.8em;
+        height: 15em;
+        stroke: #FFDBC3;
+        position: relative;
+        z-index: 3;
+
+      a {
+        text-decoration: none;
+        span {
+            position: relative;
+            left: 0.5em;
+            top: 1.88em;
+            font-size: 1.4em;
+            text-decoration: none;
+            color: white;
+        }
+      }
+    }
+
 }
