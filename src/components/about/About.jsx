@@ -24,7 +24,7 @@ const About = () => {
             <br />   <br />
             Feel free to look at My Resume here ⬇️ 
 
-            <a href="https://shorturl.at/muGX4" target='_blank'>
+            <a href="https://shorturl.at/noLX4" target='_blank'>
               <div className="resume">
                 <span>RESUME</span>
               </div>
